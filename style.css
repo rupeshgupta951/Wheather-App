@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{ 
+    background: url('bg.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    background: #000000d0;
+    color: white;
+    width: 36vw;
+    height: 420px;
+    font-size: 20px;
+    margin-left: 200px;
+    border-radius: 60px;
+  }
+  .flex{
+    display: flex;
+    flex-direction: row;   
+    justify-content: left;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    
+  }
+  #search{
+    display: flex;
+    justify-content: center;
+    width: 25vw;
+    height: 5vh;
+    border-radius: 20px;
+    font-size: 1.2em;
+    padding: 30px;
+    padding-left: 20px;
+    background: transparent;
+    color: white;
+    margin-right: 15px;
+  
+  }
+  ::placeholder{
+    color: azure;
+  }
+  .searchbar{
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+ #btimg{
+    background-color: transparent; 
+    width: 40px; 
+    
+ }
+ button{
+    background: transparent;
+    border: 0;
+ }
+ button:hover{
+    cursor: pointer;
+ }
+ #name{
+    margin-bottom: 20px;
+    margin-left: 50px;
+ }
+ h4{
+    margin-bottom: 20px;
+    margin-left: 50px;
+ }
+ #icon{
+    width:50px;
+   
+ }
+ #description{
+    padding-top: 10px;
+    
+ }
+ #time{
+   font-size: 2rem;
+   color: white;
+   height: 100px;
+   
+ }
+ .card2 {
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background: transparent;
+   color: white;
+   width: 15vw;
+   height: 210px;
+   left: 500px;
+   top: 350px;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 20px;
+ }
