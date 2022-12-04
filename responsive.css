@@ -89,3 +89,20 @@
        
      }
 }
+@media only screen and (max-height: 700px){
+.card2 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    color: white;
+    width: 40vw;
+    height: 60px;
+    left: 210px;
+    top: 410px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+}
